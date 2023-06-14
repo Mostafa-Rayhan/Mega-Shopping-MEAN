@@ -4,7 +4,8 @@
   "description": "mega_shopping",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
   },
   "keywords": [],
   "author": "Mostafa Rayhan",
@@ -15,7 +16,14 @@
   },
   "dependencies": {
     "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
     "express": "^4.18.2",
-    "nodemon": "^2.0.22"
+    "morgan": "^1.10.0",
+    "mysqli": "^3.1.4",
+    "nodemon": "^2.0.22",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
   }
 }
