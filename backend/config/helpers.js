@@ -10,3 +10,6 @@ let conn = new Mysqli({
 
 let db = conn.emit(false, '');
 
+module.exports = {
+    database: db
+};
